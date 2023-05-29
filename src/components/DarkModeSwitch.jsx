@@ -12,7 +12,7 @@ export default function DarkModeSwitch() {
   return (
     <>
       {currentTheme === "dark" ? (<FontAwesomeIcon  onClick={() => setTheme('light')} className='w-[1.5rem] hover:text-amber-500 hover:cursor-pointer' icon={faSun} />) :
-      (<FontAwesomeIcon className='w-[1.5rem]  hover:text-amber-500 hover:cursor-pointer' icon={faMoon}  onClick={() => setTheme('dark')} />)
+      (<FontAwesomeIcon className='  hover:text-amber-500 hover:cursor-pointer' icon={faMoon}  onClick={() => setTheme('dark')} />)
       }
     </>
   )}
